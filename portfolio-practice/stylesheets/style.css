@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&amp;family=Oxygen+Mono&amp;display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.1/css/all.css");
 
 :root {
   --black: #171321;
@@ -115,4 +116,13 @@ a:hover {
 
 .navbar-items a:hover {
   color: var(--magenta);
+}
+
+.navbar-items [class*="fa-"] {
+  font-weight: 150%;
+  color: var(--aqua);
+}
+
+.cat-icon {
+  color: white;
 }
