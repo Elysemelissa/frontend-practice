@@ -81,3 +81,38 @@ a:hover {
 .contact p:last-child {
   margin-top: 48px;
 }
+
+.navbar {
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+  background-color: var(--plum);
+}
+
+.navbar-items li:first-child {
+  font-family: var(--sans);
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.navbar-items {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: vertical;
+  gap: 2rem;
+}
+
+.navbar-items a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-items a:hover {
+  color: var(--magenta);
+}
