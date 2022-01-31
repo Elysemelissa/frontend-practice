@@ -148,3 +148,18 @@ a:hover {
     margin-right: auto;
   }
 }
+
+footer {
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 1rem;
+  font-size: 2rem;
+}
