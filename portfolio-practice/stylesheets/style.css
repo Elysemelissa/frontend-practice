@@ -14,6 +14,27 @@
   --sans: Oxygen, sans-serif;
 }
 
+@media (min-width: 800px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  article {
+    display: flex;
+    gap: 1rem;
+  }
+  .text {
+    order: 2;
+    text-align: right;
+  }
+  .projects ul {
+    justify-content: flex-end !important;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -147,18 +168,11 @@ button:hover {
   color: var(--white);
 }
 
-@media (min-width: 850px) {
-  nav {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
   .navbar-items li:first-child {
     flex-basis: auto;
     text-align: left;
     margin-right: auto;
   }
-}
 
 .section-blue {
   background-color: var(--dkblue);
@@ -166,6 +180,8 @@ button:hover {
 
 .projects {
   padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .projects h2 {
@@ -203,10 +219,9 @@ button:hover {
 }
 
 .projects img {
-  margin: 2rem 0 4rem 0;
-  width: 70%;
   border-radius: 25px;
   padding: 1rem;
+  width: 100%;
 }
 
 footer {
